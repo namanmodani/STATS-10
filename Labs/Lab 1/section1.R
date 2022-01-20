@@ -19,7 +19,6 @@ class(cbind(heights, names))
 # cbind combines two vectors as columns into one data object. Additionally, each value in the data object is converted to a character. For instance, 72 becomes "72". 
 # The class of the new object is a matrix.
 
-
 # 2A
 
 NCbirths <- read.csv("births.csv")
