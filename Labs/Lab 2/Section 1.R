@@ -44,7 +44,7 @@ boxplot(flint$Pb, main = "Boxplot of Lead Levels from Flint")
 
 # 1G
 
-## No, the mean does not seem to be a good measure for the center of the data. since the data is skewed.
+## No, the mean does not seem to be a good measure for the center of the data, since the data is skewed.
 ## The median would be a better measure of central tendency.
 
 median(flint$Pb)
