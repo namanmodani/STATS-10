@@ -17,3 +17,21 @@ abline(linear_model, col = "red", lwd = 2)
 plot(linear_model$residuals ~ NCbirths$Mage, main = "Residuals plot") 
 ## Add a line of y = 0 to help visualize the residuals 
 abline(a = 0, b = 0, col = "red", lwd = 2) 
+
+# 1A
+
+soil <- read.table("soil_complete.txt", header = TRUE)
+soil_model <- lm(soil$lead ~ soil$zinc)
+summary(soil_model)
+
+# 1B
+
+plot(soil$lead ~ soil$zinc, 
+     xlab = "Zinc Concentration", ylab = "Lead Concentration", 
+     main = "Regression of Lead concentration on Zinc concentration")
+abline(soil_model, col = "red", lwd = 2)
+
+# 1C
+plot(soil_model$residuals ~ soil$zinc,
+     main = "Residuals plot")
+abline(a = 0, b = 0, col = "red", lwd = 2)
