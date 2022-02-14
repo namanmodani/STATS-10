@@ -4,7 +4,7 @@
 
 # 2A
 
-ice <- read.csv("sea_ice.csv", header = TRUE) 
+ice <- read.csv("sea_ice.csv", header = TRUE)
 ice$Date <- as.Date(ice$Date, "%m/%d/%Y") 
 
 ice_model <- lm(ice$Extent ~ ice$Date)
@@ -17,7 +17,7 @@ plot(ice$Extent ~ ice$Date,
      main = "Regression of Extent against Date")
 abline(ice_model, col = "red", lwd = 2)
 
-## Although the slope of the line is very small, it is still a positive trend.
+## Although the slope of the line is very small, it still has a positive trend.
 ## It also happens to be oscillating in nature.
 
 # 2C
