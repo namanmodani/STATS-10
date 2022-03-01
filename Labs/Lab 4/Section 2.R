@@ -15,7 +15,8 @@ phats <- numeric(M) # for sample proportions
 set.seed(123)
 # Always set the seed OUTSIDE the for loop.
 # Now we start the loop. Let i cycle over the numbers 1 to 1000 (i.e., iterate 1000 times).
-for(i in seq_len(M)){
+for(i in seq_len(M))
+{
   # The i-th iteration of the for loop represents a single repetition.
   # Take a simple random sample of size n from the population of size N.
   index <- sample(N, size = n)
