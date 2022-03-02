@@ -4,6 +4,7 @@
 
 # 4A
 
+pawnee <- read.csv("pawnee.csv")
 head(pawnee)
 dim(pawnee)
 
@@ -51,8 +52,10 @@ mean(pawnee$New_hlth_issue == "Y")
 
 # 4H
 
+## Histogram
 hist(pawnee$Arsenic, breaks = 50, 
      xlab = "Arsenic Level", main = "Histogram of Arsenic Level")
 
+## Boxplot
 boxplot(pawnee$Arsenic,
         ylab = "Arsenic Level", main = "Boxplot of Arsenic Level")
