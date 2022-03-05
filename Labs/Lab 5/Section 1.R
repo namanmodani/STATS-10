@@ -49,3 +49,10 @@ prop.test(x = sum(flint$Pb >= 15), n = nrow(flint), p = 0.1, alt = "greater")
 ## The p-value is 0.03778.
 ## No, the results do not change. This is because we still reject the null
 ## hypothesis, since the p-value 0.03778 < 0.05.
+
+# 1H
+
+prop.test(x = sum(flint$Pb >= 15), n = nrow(flint), p = 0.1, 
+          alt = "greater", conf.level = 0.99)
+
+## The 99% confidence level is (0.09376523, 1.00000000]
