@@ -43,3 +43,7 @@ z_stat
 ## from the proportion of dangerous lead levels in the South region.
 
 # 2E
+
+library(mosaic)
+prop.test(x = c(x_north, x_south), n = c(n1, n2), alternative = "two.sided")
+## p-value = 0.0005781 < 0.05, reject null. Results don't change.
