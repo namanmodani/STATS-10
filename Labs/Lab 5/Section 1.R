@@ -37,7 +37,7 @@ pnorm(z_stat, lower.tail = FALSE)
 
 # 1F
 
-## The EPA should taken remediation action immediately since greater than 10% 
+## The EPA should take remediation action immediately since greater than 10% 
 ## of households in Flint contain dangerous lead levels. Since we reject the 
 ## null hypothesis, we are in favor of the alternate hypothesis.
 
