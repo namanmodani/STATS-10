@@ -1,8 +1,8 @@
 # STATS 10: Introduction to Statistical Reasoning
 
-This repository contains my work and course material for STATS 10, taken under Professor Bingling Wang in Winter 2021. 
+This repository contains my work and course material for STATS 10, taken under Professor Bingling Wang in Winter 2022. 
 
-Software used: R (RStudio)
+Software used: R (RStudio).
 
 ## Course Material
 
