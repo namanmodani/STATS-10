@@ -17,4 +17,8 @@ Software used: R (RStudio)
 
 The course comprised of five labs, the content of which can be found in `/Labs`. The labs are based on Peter Dalgaard's "Introductory Statistics with R" (2nd Edition).
 
-
+1. [R Basics and Working with Data](/Labs/Lab%201/)
+2. [Data Cleaning: Preparation and Visualization](/Labs/Lab%202/)
+3. [Linear Regression, Probability, and Sampling](/Labs/Lab%203/)
+4. [Simulation, Sampling, and the Central Limit Theorem](/Labs/Lab%204/)
+5. [Hypothesis Testing Bonanza!](/Labs/Lab%205/)
