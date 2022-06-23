@@ -16,3 +16,5 @@ Software used: R (RStudio)
 - Statistical Inference
 
 The course comprised of five labs, the content of which can be found in `/Labs`. The labs are based on Peter Dalgaard's "Introductory Statistics with R" (2nd Edition).
+
+
