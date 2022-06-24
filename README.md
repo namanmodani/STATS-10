@@ -15,7 +15,7 @@ Software used: R (RStudio).
 - Statistical Packages
 - Statistical Inference
 
-The course comprised of five labs, the content of which can be found in `/Labs`. The labs are based on Peter Dalgaard's "Introductory Statistics with R" (2nd Edition).
+The course comprised of five labs, the content of which can be found in `Labs/`. The labs are based on Peter Dalgaard's "Introductory Statistics with R" (2nd Edition).
 
 1. [R Basics and Working with Data](/Labs/Lab%201/)
 2. [Data Cleaning: Preparation and Visualization](/Labs/Lab%202/)
